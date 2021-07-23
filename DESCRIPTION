@@ -1,0 +1,27 @@
+Package: mlegfr
+Title: 3 new equations to estimate GFR
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jenna",
+           family = "Zhu",
+           role = c("aut", "cre"),
+           email = "jennazhu5@gmail.com")
+Description: We developed 3 new equations to estimate glomerular filtration rate (GFR) using
+             serum creatinine, age and sex. This package serves the purpose of applying 
+             our new equation and estimating GFR for many individuals at once. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+Imports: 
+    mfp,
+    dplyr,
+    mgcv,
+    randomForest,
+    magrittr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
